@@ -1,0 +1,4 @@
+index=resilient_windows_powershell EventCode=4104
+("Get-LocalUser" OR "Get-CimInstance Win32_OperatingSystem" OR "Get-Process" OR "Get-NetTCPConnection")
+| table _time ScriptBlockText
+| sort _time

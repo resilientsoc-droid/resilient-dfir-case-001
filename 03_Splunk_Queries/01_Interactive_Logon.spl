@@ -1,0 +1,3 @@
+index=resilient_windows_security EventCode=4624 Account_Name="leader Resilient" Logon_Type=2
+| table _time Account_Name Logon_Type Source_Network_Address Workstation_Name Process_Name
+| sort _time

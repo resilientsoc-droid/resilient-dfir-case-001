@@ -1,0 +1,3 @@
+index=resilient_windows_powershell EventCode=4104 "Start-ScheduledTask" "CASE001_TestPersistence"
+| table _time ScriptBlockText
+| sort _time

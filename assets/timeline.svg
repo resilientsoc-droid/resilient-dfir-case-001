@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" font-family="Segoe UI,Arial,sans-serif">
+<rect width="100%" height="100%" rx="14" fill="#0d1117"/>
+<text x="600" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#e6edf3">CASE001 — Timeline · 2026-09-09</text>
+<line x1="50" y1="150" x2="1150" y2="150" stroke="#30363d" stroke-width="4"/>
+<circle cx="85" cy="150" r="9" fill="#1f6feb"/>
+<line x1="85" y1="141" x2="85" y2="115" stroke="#1f6feb" stroke-width="2"/>
+<text x="85" y="73" text-anchor="middle" font-size="13" font-weight="700" fill="#e6edf3">10:54:39</text>
+<text x="85" y="89" text-anchor="middle" font-size="11" fill="#1f6feb">4624</text>
+<text x="85" y="105" text-anchor="middle" font-size="11" fill="#8b949e">Interactive logon</text>
+<circle cx="199" cy="150" r="9" fill="#1f6feb"/>
+<line x1="199" y1="159" x2="199" y2="191" stroke="#1f6feb" stroke-width="2"/>
+<text x="199" y="223" text-anchor="middle" font-size="13" font-weight="700" fill="#e6edf3">10:54:40</text>
+<text x="199" y="239" text-anchor="middle" font-size="11" fill="#1f6feb">4688</text>
+<text x="199" y="255" text-anchor="middle" font-size="11" fill="#8b949e">PowerShell created</text>
+<circle cx="313" cy="150" r="9" fill="#8957e5"/>
+<line x1="313" y1="141" x2="313" y2="115" stroke="#8957e5" stroke-width="2"/>
+<text x="313" y="73" text-anchor="middle" font-size="13" font-weight="700" fill="#e6edf3">10:54:57</text>
+<text x="313" y="89" text-anchor="middle" font-size="11" fill="#8957e5">4104</text>
+<text x="313" y="105" text-anchor="middle" font-size="11" fill="#8b949e">Get-LocalUser</text>
+<circle cx="427" cy="150" r="9" fill="#8957e5"/>
+<line x1="427" y1="159" x2="427" y2="191" stroke="#8957e5" stroke-width="2"/>
+<text x="427" y="223" text-anchor="middle" font-size="13" font-weight="700" fill="#e6edf3">11:00:39</text>
+<text x="427" y="239" text-anchor="middle" font-size="11" fill="#8957e5">4104</text>
+<text x="427" y="255" text-anchor="middle" font-size="11" fill="#8b949e">OS discovery</text>
+<circle cx="541" cy="150" r="9" fill="#8957e5"/>
+<line x1="541" y1="141" x2="541" y2="115" stroke="#8957e5" stroke-width="2"/>
+<text x="541" y="73" text-anchor="middle" font-size="13" font-weight="700" fill="#e6edf3">11:03:02</text>
+<text x="541" y="89" text-anchor="middle" font-size="11" fill="#8957e5">4104</text>
+<text x="541" y="105" text-anchor="middle" font-size="11" fill="#8b949e">Process discovery</text>
+<circle cx="655" cy="150" r="9" fill="#8957e5"/>
+<line x1="655" y1="159" x2="655" y2="191" stroke="#8957e5" stroke-width="2"/>
+<text x="655" y="223" text-anchor="middle" font-size="13" font-weight="700" fill="#e6edf3">11:05:41</text>
+<text x="655" y="239" text-anchor="middle" font-size="11" fill="#8957e5">4104</text>
+<text x="655" y="255" text-anchor="middle" font-size="11" fill="#8b949e">Network discovery</text>
+<circle cx="769" cy="150" r="9" fill="#d29922"/>
+<line x1="769" y1="141" x2="769" y2="115" stroke="#d29922" stroke-width="2"/>
+<text x="769" y="73" text-anchor="middle" font-size="13" font-weight="700" fill="#e6edf3">11:08:39</text>
+<text x="769" y="89" text-anchor="middle" font-size="11" fill="#d29922">4104 / 4688 / Sysmon 1</text>
+<text x="769" y="105" text-anchor="middle" font-size="11" fill="#8b949e">schtasks /Create</text>
+<circle cx="883" cy="150" r="9" fill="#d29922"/>
+<line x1="883" y1="159" x2="883" y2="191" stroke="#d29922" stroke-width="2"/>
+<text x="883" y="223" text-anchor="middle" font-size="13" font-weight="700" fill="#e6edf3">11:20:31</text>
+<text x="883" y="239" text-anchor="middle" font-size="11" fill="#d29922">4104</text>
+<text x="883" y="255" text-anchor="middle" font-size="11" fill="#8b949e">Start-ScheduledTask</text>
+<circle cx="997" cy="150" r="9" fill="#da3633"/>
+<line x1="997" y1="141" x2="997" y2="115" stroke="#da3633" stroke-width="2"/>
+<text x="997" y="73" text-anchor="middle" font-size="13" font-weight="700" fill="#e6edf3">11:20:47</text>
+<text x="997" y="89" text-anchor="middle" font-size="11" fill="#da3633">4103</text>
+<text x="997" y="105" text-anchor="middle" font-size="11" fill="#8b949e">Test-Path = False</text>
+<circle cx="1111" cy="150" r="9" fill="#2ea043"/>
+<line x1="1111" y1="159" x2="1111" y2="191" stroke="#2ea043" stroke-width="2"/>
+<text x="1111" y="223" text-anchor="middle" font-size="13" font-weight="700" fill="#e6edf3">11:22:28</text>
+<text x="1111" y="239" text-anchor="middle" font-size="11" fill="#2ea043">4104</text>
+<text x="1111" y="255" text-anchor="middle" font-size="11" fill="#8b949e">Task removed</text>
+</svg>

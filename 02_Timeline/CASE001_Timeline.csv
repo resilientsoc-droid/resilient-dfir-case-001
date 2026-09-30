@@ -1,0 +1,15 @@
+Timestamp,Source,Event_ID,Activity,Account,Assessment
+2026-09-09 10:54:39.073,Windows Security,4624,Interactive local logon,DESKTOP-U434GBI\leader Resilient,CONFIRMED
+2026-09-09 10:54:40.439,Windows Security,4688,PowerShell process creation,DESKTOP-U434GBI\leader Resilient,CONFIRMED
+2026-09-09 10:54:57.041,PowerShell,4104,Get-LocalUser,DESKTOP-U434GBI\leader Resilient,CONFIRMED
+2026-09-09 11:00:39.389,PowerShell,4104,System information discovery,DESKTOP-U434GBI\leader Resilient,CONFIRMED
+2026-09-09 11:03:02.993,PowerShell,4104,Process discovery,DESKTOP-U434GBI\leader Resilient,CONFIRMED
+2026-09-09 11:05:41.533,PowerShell,4104,Network connection discovery,DESKTOP-U434GBI\leader Resilient,CONFIRMED
+2026-09-09 11:08:39.473,PowerShell,4104,Scheduled Task creation,DESKTOP-U434GBI\leader Resilient,CONFIRMED
+2026-09-09 11:08:39.556,Windows Security,4688,schtasks.exe process creation,DESKTOP-U434GBI\leader Resilient,CONFIRMED
+2026-09-09 11:08:39.616,Sysmon,1,schtasks.exe execution with PowerShell parent,DESKTOP-U434GBI\leader Resilient,CONFIRMED
+2026-09-09 11:20:31.766,PowerShell,4104,Start-ScheduledTask execution attempt,DESKTOP-U434GBI\leader Resilient,EXECUTION ATTEMPT
+2026-09-09 11:20:41.034,PowerShell,4103,Scheduled Task failure indicator,DESKTOP-U434GBI\leader Resilient,FAILURE INDICATOR
+2026-09-09 11:20:47.980,PowerShell,4103,Persistence file check returned False,DESKTOP-U434GBI\leader Resilient,NOT OBSERVED
+2026-09-09 11:22:28.163,PowerShell,4104,Scheduled Task removal,DESKTOP-U434GBI\leader Resilient,CLEANUP
+2026-09-09 11:22:38.071,PowerShell,4103,Scheduled Task no longer found,DESKTOP-U434GBI\leader Resilient,CLEANUP CONFIRMED
