@@ -64,7 +64,7 @@ Full timeline with assessments: [`02_Timeline/CASE001_Timeline.csv`](02_Timeline
 
 ---
 
-## 🛡️ MITRE ATT&CK Mapping
+## MITRE ATT&CK Mapping
 
 | Technique | Name | Observed activity | Evidence |
 |---|---|---|---|
