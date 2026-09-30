@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔍 CASE001 — Windows DFIR Investigation
+# CASE001 — Windows DFIR Investigation
 
 **Scheduled Task Persistence Reconstruction using Splunk, Sysmon & PowerShell Logging**
 
@@ -13,7 +13,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This case reconstructs a full activity chain on a Windows 11 endpoint using three telemetry sources correlated in Splunk: **Windows Security**, **PowerShell Script Block / Module logging**, and **Sysmon**.
 
@@ -28,7 +28,7 @@ The activity starts with a local interactive logon, moves through PowerShell-bas
 | Evidence source | Splunk (`resilient_windows_security`, `resilient_windows_powershell`, `resilient_windows_sysmon`) |
 | Environment | Home lab, controlled test activity |
 
-## 🎯 Key Findings
+## Key Findings
 
 | Finding | Status |
 |---|---|
@@ -47,13 +47,13 @@ The activity starts with a local interactive logon, moves through PowerShell-bas
 
 ---
 
-## 🧭 Attack Chain
+## Attack Chain
 
 <p align="center">
   <img src="assets/attack_flow.svg" alt="CASE001 attack chain" width="100%">
 </p>
 
-## 🕒 Timeline (2026-09-09)
+## Timeline (2026-09-09)
 
 <p align="center">
   <img src="assets/timeline.svg" alt="CASE001 timeline" width="100%">
@@ -63,7 +63,7 @@ Full timeline with assessments: [`02_Timeline/CASE001_Timeline.csv`](02_Timeline
 
 ---
 
-## 🛡️ MITRE ATT&CK Mapping
+##  MITRE ATT&CK Mapping
 
 | Technique | Name | Observed activity | Evidence |
 |---|---|---|---|
@@ -75,7 +75,7 @@ Full timeline with assessments: [`02_Timeline/CASE001_Timeline.csv`](02_Timeline
 
 ---
 
-## 🖼️ Evidence Walkthrough
+##  Evidence Walkthrough
 
 ### 1. Interactive logon: Security 4624
 Logon Type 2 from `::1` (IPv6 loopback) shows the session started locally, not from a remote source.
@@ -170,17 +170,17 @@ index=resilient_windows_powershell EventCode=4104 "schtasks /Create" "CASE001_Te
 └── 06_Hashes/              # SHA-256 integrity list
 ```
 
-## ✅ Integrity
+## Integrity
 
 ```bash
 sha256sum -c 06_Hashes/SHA256SUMS.txt
 ```
 
-## 📚 Skills Demonstrated
+## Skills Demonstrated
 
 `Windows DFIR` · `Splunk SPL` · `Sysmon` · `PowerShell Logging (4103/4104)` · `Windows Security Events (4624/4688)` · `Cross-source correlation` · `MITRE ATT&CK mapping` · `Evidence-based reporting`
 
-## 📖 Full Report
+## Full Report
 
 [`01_Report/CASE001_Final_DFIR_Report.md`](01_Report/CASE001_Final_DFIR_Report.md)
 
